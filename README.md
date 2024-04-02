@@ -15,4 +15,7 @@ Step-3
 Create a IAM user with Admin access EC2fullaccess if required
 
 step-4
-In 
+Now do aws configure and provide the accesskey and secretkey
+
+step-5
+Open https://github.com/prudhvisurya996/kubernetesinstallation.git/
