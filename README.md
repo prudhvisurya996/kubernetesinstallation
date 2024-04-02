@@ -18,4 +18,22 @@ step-4
 Now do aws configure and provide the accesskey and secretkey
 
 step-5
-Open https://github.com/prudhvisurya996/kubernetesinstallation.git/
+Open https://github.com/prudhvisurya996/kubernetesinstallation.git/terraform/aws/modules/ec2
+
+RUN terraform init
+terraform validate
+terraform fmt
+terraform plan
+terraform apply --auto-approve
+
+This should create three nodes 
+
+Step-6
+
+Now We need to run 2 scripts namely common.sh in all the three nodes
+Run master.sh only in masternode
+
+Step-6
+
+Check the nodes in master node and workernode
+kubectl get nodes
